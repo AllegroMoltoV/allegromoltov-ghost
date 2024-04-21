@@ -1,0 +1,13 @@
+charset,Shift_JIS
+
+craftman,AllegroMoltoV
+craftmanw,‚ ‚ê‚®‚ë‚à‚é‚Æ
+craftmanurl,https://www.allegromoltov.jp/
+
+name,‚ ‚ê‚®‚ë‚à‚é‚Æ
+type,ghost
+
+sakura.name,‚ ‚ê‚®‚ë‚à‚é‚Æ
+kero.name,”L‚ÌLead
+
+shiori,satori.dll

@@ -1,0 +1,13 @@
+charset,Shift_JIS
+craftman,AllegroMoltoV
+id,
+name,master
+type,shell
+craftmanw,‚ ‚ê‚®‚ë‚à‚é‚Æ
+craftmanurl,https://www.allegromoltov.jp/
+
+sakura.balloon.offsetx,20
+sakura.balloon.offsety,-20
+kero.balloon.offsetx,-10
+kero.balloon.offsety,20
+
