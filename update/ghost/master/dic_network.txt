@@ -7,7 +7,7 @@
 ＃SSPでは上記に加えfileio/readonly
 
 ＠homeurl
-https://github.com/AllegroMoltoV/allegromoltov-ghost/update
+https://raw.githubusercontent.com/AllegroMoltoV/allegromoltov-ghost/main/update/
 
 ＊OnUpdateBegin
 ：ネットワーク更新開始したよ！
