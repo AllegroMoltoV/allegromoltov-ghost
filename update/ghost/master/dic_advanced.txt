@@ -21,36 +21,36 @@ http://disc2.s56.xrea.com/manual/list_shiori_event.htm
 ＞OnBoot
 
 ＊OnGhostCalling
-：（Ｒ０）さんおいで～
+：（０）（Ｒ０）さんおいで～
 
 ＊OnGhostCallComplete
-：（Ｒ０）さんいらっしゃい！
+：（０）（Ｒ０）さんいらっしゃい！
 
 ＊OnOtherGhostClosed
-：（Ｒ０）さんまたね～
+：（０）（Ｒ０）さんまたね～
 
 ＊OnOtherGhostChanged
-：（Ｒ０）さんまたね～、（Ｒ１）さんいらっしゃい！
+：（０）（Ｒ０）さんまたね～、（Ｒ１）さんいらっしゃい！
 
 
 
 ＃シェル
 
 ＊OnShellChanging
-：（Ｒ０）に着替えてくる！
+：（０）（Ｒ０）に着替えてくる！
 
 ＊OnShellChanged
-：（Ｒ１）から着替えてきた！
+：（０）（Ｒ１）から着替えてきた！
 
 
 
 ＃最小化
 
 ＊OnWindowStateRestore
-：ただいま～
+：（０）ただいま～
 
 ＊OnWindowStateMinimize
-：あれぐろもると　の　ちいさくなる！
+：（０）あれぐろもると　の　ちいさくなる！
 
 
 
@@ -64,7 +64,7 @@ http://disc2.s56.xrea.com/manual/list_shiori_event.htm
 
 ＃選択枝放置
 ＊OnChoiceTimeout
-：早く選んでよ～
+：（１）早く選んでよ～
 
 
 
@@ -94,68 +94,68 @@ http://disc2.s56.xrea.com/manual/list_shiori_event.htm
 ＃
 
 ＊OnInstallBegin
-：インストールするね！
+：（０）インストールするね！
 
 ＊OnInstallComplete
-：インストールしたよ！
+：（０）インストールしたよ！
 
 ＊OnInstallFailure
-：インストール失敗しちゃった
+：（１）インストール失敗しちゃった
 
 ＊OnInstallRefuse
-：accept違いでインストール失敗しちゃった
+：（１）accept通らなくてインストール失敗しちゃった
 
 
 
 ＃開発関係
 
 ＊OnUpdatedataCreating
-：アップデートファイル作成開始したよ！
+：（０）アップデートファイル作成開始したよ！
 
 ＊OnUpdatedataCreated
-：アップデートファイル作成完了したよ！
+：（０）アップデートファイル作成完了したよ！
 
 ＃（Ｒ０）＝名前、（Ｒ１）＝ファイル名、（Ｒ２）＝識別子
 
 ＊OnNarCreating
-：Narアーカイブ作成開始したよ！
+：（０）Narアーカイブ作成開始したよ！
 
 ＊OnNarCreated
-：Narアーカイブ作成完了したよ！
+：（０）Narアーカイブ作成完了したよ！
 
 
 
 ＃時計合わせ
 
 ＊OnSNTPBegin
-：時計合わせ開始するね
+：（０）時計合わせ開始するね
 
 ＊OnSNTPCompare
-：時計合わせ接続したよ！
+：（０）時計合わせ接続したよ！
 
 ＊OnSNTPCorrect
-：時計合わせ完了したよ！
+：（０）時計合わせ完了したよ！
 
 ＊OnSNTPFailure
-：時計合わせ失敗しちゃった
+：（１）時計合わせ失敗しちゃった
 
 
 
 ＃メールチェックイベント
 
 ＊OnBIFFBegin
-：メールチェック開始するね！
+：（０）メールチェック開始するね！
 
 ＊OnBIFFComplete
-：メールチェック成功したよ！
+：（０）メールチェック成功したよ！
 （Ｒ０）通、（Ｒ１）バイト、新着は（Ｒ３）通だよ！
 
 ＊OnBIFF2Complete
-：前回チェック時から新着メールがあるよ！
+：（０）前回チェック時から新着メールがあるよ！
 （Ｒ０）通、（Ｒ１）バイトだね
 
 ＊OnBIFFFailure
-：メールチェック失敗しちゃった
+：（１）メールチェック失敗しちゃった
 
 ＃（Ｒ０）＝失敗理由、timeout/kick/defect
 
@@ -164,18 +164,18 @@ http://disc2.s56.xrea.com/manual/list_shiori_event.htm
 ＃ヘッドラインセンスイベント
 
 ＊OnHeadlinesenseBegin
-：ヘッドラインセンス開始するよ！
+：（０）ヘッドラインセンス開始するよ！
 
 ＊OnHeadlinesense.OnFind
-：ヘッドラインセンスがあるよ！
+：（０）ヘッドラインセンスがあるよ！
 
 ＃（Ｒ２）＝フェーズ、First/Fisrt and Last/Last/Next
 
 ＊OnHeadlinesenseComplete
-：ヘッドラインセンス終了したよ！
+：（０）ヘッドラインセンス終了したよ！
 
 ＊OnHeadlinesenseFailure
-：ヘッドラインセンス失敗しちゃった
+：（１）ヘッドラインセンス失敗しちゃった
 
 ＃（Ｒ０）＝終了理由、no update/can't download/can't analyze
 
@@ -184,9 +184,9 @@ http://disc2.s56.xrea.com/manual/list_shiori_event.htm
 ＃他
 
 ＊OnKeyPress
-：（Ｒ０）キーが押されたよ
+：（０）（Ｒ０）キーが押されたよ
 
 ＊OnNetworkHeavy
-：ネットワークが重たいみたい
+：（１）ネットワークが重たいみたい
 
 
