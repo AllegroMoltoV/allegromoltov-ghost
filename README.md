@@ -8,4 +8,4 @@
 
 1. このページから [allegromoltov.nar](https://raw.githubusercontent.com/AllegroMoltoV/allegromoltov-ghost/main/allegromoltov.nar) をダウンロードして、デフォルトゴーストにドラッグアンドドロップします
 
-![ghost](https://github.com/AllegroMoltoV/allegromoltov-ghost/assets/77569633/1b08d949-7b5d-46ac-9a0f-5945c5127394)
+![ghost2](https://github.com/AllegroMoltoV/allegromoltov-ghost/assets/77569633/862533de-2943-4808-a9e7-11c4e4465b56)
