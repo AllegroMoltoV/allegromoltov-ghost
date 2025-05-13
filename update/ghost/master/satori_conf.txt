@@ -14,4 +14,5 @@
 ＄ユーザ名	ユーザ
 ＄自動挿入ウェイトの倍率	１００％
 
-
+＠SAORI
+つぶやき,saori/GetTweetSaori.dll
