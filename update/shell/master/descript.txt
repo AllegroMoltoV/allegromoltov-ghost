@@ -3,6 +3,7 @@ craftman,AllegroMoltoV
 id,
 name,master
 type,shell
+seriko.use_self_alpha,1
 craftmanw,‚ ‚ê‚®‚ë‚à‚é‚Æ
 craftmanurl,https://www.allegromoltov.jp/
 
